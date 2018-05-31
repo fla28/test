@@ -1,0 +1,7 @@
+#!/usr/bin/env Rscript
+# this is the RScript to create figure 1A
+
+x <-  c(1,2,3,4,5)
+png("stairs.png")
+barplot(x, xlab = "stairs")
+dev.off()
