@@ -2,6 +2,7 @@
 # this is the RScript to create figure 1A
 
 x <-  c(1,2,3,4,5)
+y <- c(5,4,3,2,1)
 png("stairs.png")
-barplot(x, xlab = "stairs")
+barplot(x, y, xlab = "stairs")
 dev.off()
